@@ -1,0 +1,27 @@
+[project]
+name = "k6-mcp-server"
+version = "0.1.0"
+description = "Model context protocol server for k6 load testing"
+readme = "README.md"
+requires-python = "^3.8"
+dependencies = [
+    "mcp[cli]>=1.6.0",
+]
+
+[tool.poetry]
+name = "k6-mcp-server"
+version = "0.1.0"
+description = "Model context protocol server for k6 load testing"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0"
+black = "^23.0"
+isort = "^5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
