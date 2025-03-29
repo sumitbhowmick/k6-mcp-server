@@ -15,7 +15,7 @@ A Model Context Protocol (MCP) server implementation for running k6 load tests.
 Before you begin, ensure you have the following installed:
 
 - Python 3.12 or higher
-- k6 load testing tool ([Installation guide](https://k6.io/docs/getting-started/installation/))
+- k6 load testing tool ([Installation guide](https://grafana.com/docs/k6/latest/set-up/install-k6/))
 - uv package manager ([Installation guide](https://github.com/astral-sh/uv))
 
 ## 📦 Installation
